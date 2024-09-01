@@ -3,7 +3,7 @@ name: X86_64 OpenWrt
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 14 * * *
+    - cron: 0 10 * * *
   watch:
     types: started
 
