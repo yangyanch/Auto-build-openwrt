@@ -74,8 +74,7 @@ git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone --depth=1 -b v5-lua https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
 # Alist
-git_sparse_clone lua https://github.com/sbwml/luci-app-alist luci-app-alist
-git_sparse_clone master https://github.com/sbwml/luci-app-alist alist
+git clone --depth=1 -b lua https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
 # DDNS.to
 git_sparse_clone main https://github.com/linkease/nas-packages-luci luci/luci-app-ddnsto
